@@ -1,0 +1,103 @@
+body {
+  background-color: #ccc;
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  text-align: center;
+}
+
+header, aside, article {
+  padding: 7px;
+  background-color: #666;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  box-shadow: 2px 2px 2px #333;
+}
+
+section, aside {
+  float: left;
+}
+
+section {
+  max-width: 70%;
+  text-align: center;
+}
+
+aside {
+  min-width: 27%;
+  margin-left: 10px;
+  text-align: center;
+}
+
+h1, h2, h3, h4 {
+  color: #ccc;
+}
+
+aside section {
+  background-color: #999;
+  border-radius: 8px;
+  float: none;
+  min-height: 150px;
+  max-width: 100%;
+  padding: 5px 8px;
+  margin-bottom: 10px;
+  box-shadow: 2px 2px 2px #333;
+}
+
+aside section h4 {
+  font-size: 1.2em;
+  text-align: center;
+  margin-top: 0;
+}
+
+
+aside section p {
+  font-family: times;
+  text-decoration: underline;
+  color: azure;
+  line-height: 25px;
+}
+
+aside section ul {
+  font-family: times;
+  text-decoration: underline;
+  color: azure;
+  line-height: 25px;
+  list-style: none;
+}
+
+header h1 {
+  font-size: 3em;
+  opacity: 0.6;
+}
+
+section header h2, section header h3, section header h4 {
+  margin: 1px;
+}
+
+section header h3 {
+  font-style: italic;
+  font-weight: 100;
+}
+
+article p {
+  color: azure;
+}
+
+article span {
+  text-decoration: underline;
+}
+
+#white img{
+  width: 150px;
+}
+
+#pet img {
+  width: 150px;
+  }
+
+#white p {
+  color: gold;
+}
